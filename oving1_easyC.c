@@ -11,7 +11,7 @@ void* thread_increase_i(){
 }
 void* thread_decrease_i(){
 	int j;
-	for (j = 0; j < 1000000; j++){
+	for (j = 0; j < 999999; j++){
 		i--;
 	}
 }
