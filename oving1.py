@@ -10,7 +10,7 @@ def thread_increase_i():
 def thread_decrease_i():
 	global i
 	for j in range(0,1000000):
-		i += 1
+		i -= 1
 
 def main():
 	thread_add = Thread(target = thread_increase_i,args = (),)

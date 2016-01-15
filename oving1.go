@@ -4,15 +4,17 @@ import (
 	"runtime"
 	"time"
 	)
+
 var i int = 0
+
 func thread_increase_i(){
-	for j := 0; j < 1000000; i++ {
+	for j := 0; j < 1000000; j++ {
 		i++
 	}
 }
 
 func thread_decrease_i(){
-	for j := 0; j < 1000000; i++ {
+	for j := 0; j < 1000000; j++ {
 		i--
 	}
 }
